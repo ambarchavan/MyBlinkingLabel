@@ -7,12 +7,8 @@
 
 import Foundation
 
-public class MyClass
-{
-    public func firstCharacterCapitalized(string: String) -> String
-    {
-        let first = String(string.prefix(1)).capitalized
-        let other = String(string.dropFirst())
-        return first + other
+public extension String {
+    public func firstCharacterCapitalized() -> String {
+        return prefix(1).uppercased() + dropFirst()
     }
 }
