@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension String {
-    func firstCharacterCapitalized() -> String {
+public extension String {
+    public func firstCharacterCapitalized() -> String {
         return prefix(1).uppercased() + dropFirst()
     }
 }
