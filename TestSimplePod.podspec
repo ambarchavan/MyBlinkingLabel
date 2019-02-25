@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'TestSimplePod'
-    s.version          = '0.3.0'
+    s.version          = '0.4.0'
     s.summary          = 'My first simple CocoaPod'
     s.swift_version    = '4.1'
     
